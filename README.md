@@ -1,60 +1,29 @@
-# DBA Challenge 20240802
+# BikeStores SQL Challenge
 
+Consultas SQL para análise de dados de vendas, clientes, produtos e estoques utilizando o banco de dados *BikeStores*.
 
-## Introdução
+## 📝 Descrição
+Este projeto contém consultas SQL que extraem métricas importantes para a equipe de Marketing e Comercial da empresa fictícia Bike Stores Inc.
 
-Nesse desafio trabalharemos utilizando a base de dados da empresa Bike Stores Inc com o objetivo de obter métricas relevantes para equipe de Marketing e Comercial.
+## 🚀 Tecnologias utilizadas
+- SQL (T-SQL)
+- Banco de dados: BikeStores Sample Database
 
-Com isso, teremos que trabalhar com várioas consultas utilizando conceitos como `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `GROUP BY` e `COUNT`.
+## 📂 Estrutura do projeto
+- /queries → Arquivos .sql com cada consulta solicitada
+- README.md → Documentação do projeto
 
-### Antes de começar
- 
-- O projeto deve utilizar a Linguagem específica na avaliação. Por exempo: SQL, T-SQL, PL/SQL e PSQL;
-- Considere como deadline da avaliação a partir do início do teste. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
-- Documentar todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes do que o seu processo de pensamento e decisões à medida que as completa, por isso tente documentar e apresentar os seus hipóteses e decisões na medida do possível.
- 
- 
+## 🔧 Como usar
+1. Baixe e instale o banco *BikeStores* na sua instância SQL Server ou PostgreSQL.
+2. Execute os scripts .sql presentes na pasta queries.
+3. Analise os resultados conforme solicitado.
 
-## O projeto
+## 📌 Consultas incluídas
+1. Clientes sem compras.
+2. Produtos não vendidos.
+3. Produtos sem estoque.
+4. Quantidade de vendas por marca e loja.
+5. Funcionários sem pedidos relacionados.
 
-- Criar as consultas utilizando a linguagem escolhida;
-- Entregar o código gerado do Teste.
-
-### Modelo de Dados:
-
-Para entender o modelo, revisar o diagrama a seguir:
-
-![<img src="samples/model.png" height="500" alt="Modelo" title="Modelo"/>](samples/model.png)
-
-
-## Selects
-
-Construir as seguintes consultas:
-
-- Listar todos Clientes que não tenham realizado uma compra;
-- Listar os Produtos que não tenham sido comprados
-- Listar os Produtos sem Estoque;
-- Agrupar a quantidade de vendas que uma determinada Marca por Loja. 
-- Listar os Funcionarios que não estejam relacionados a um Pedido.
-
-## Readme do Repositório
-
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
-
->  This is a challenge by [Coodesh](https://coodesh.com/)
-
-## Finalização e Instruções para a Apresentação
-
-1. Adicione o link do repositório com a sua solução no teste
-2. Verifique se o Readme está bom e faça o commit final em seu repositório;
-3. Envie e aguarde as instruções para seguir. Caso o teste tenha apresentação de vídeo, dentro da tela de entrega será possível gravar após adicionar o link do repositório. Sucesso e boa sorte. =)
-
-
-## Suporte
-
-Para tirar dúvidas sobre o processo envie uma mensagem diretamente a um especialista no chat da plataforma. 
+---
+> This is a challenge by [Coodesh](https://coodesh.com/)

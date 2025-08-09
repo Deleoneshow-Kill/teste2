@@ -1,0 +1,9 @@
+# SQL files are kept, but ignore temp or backup files
+*.bak
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.vs/
