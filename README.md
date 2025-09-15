@@ -24,6 +24,7 @@ Este projeto contém consultas SQL que extraem métricas importantes para a equi
 3. Produtos sem estoque.
 4. Quantidade de vendas por marca e loja.
 5. Funcionários sem pedidos relacionados.
+6. teste
 
 ---
 > This is a challenge by [Coodesh](https://coodesh.com/)
